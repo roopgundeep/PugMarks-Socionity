@@ -1,0 +1,46 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.socionity.gps.marker"
+    android:versionCode="6"
+    android:versionName="1.7" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name="SocionityGPSApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault" >
+        <activity
+            android:name="MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="HomePage" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ManageRecordings" >
+        </activity>
+        <activity android:name=".VectorActivity" ></activity>
+        <activity android:name="SendToServer"></activity>
+        <activity android:name="PhotoCapture"></activity>
+        <activity android:name="PhotoPreview"></activity>
+        <activity android:name="VideoCapture"></activity>
+        <activity android:name="AudioCapture"></activity>
+        <activity android:name="sendText"></activity>
+    </application>
+
+</manifest>

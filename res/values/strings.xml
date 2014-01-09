@@ -1,0 +1,67 @@
+<resources>
+	<string-array name="type_array">
+	    <item></item>
+        <item>market</item>
+        <item>forest</item>
+        <item>Place of worship</item>
+        <item>river</item>
+        <item>lake</item>
+        <item>pasture</item>
+    </string-array>
+    <string name="app_name">PugMarks</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="exitstring">Exit</string>
+    <string name="saverecord">Local Save</string>
+    <string name="historystr">History</string>
+    <string name="audio_record_button_text">Start Recording</string>
+    <string name="play_last_record_button_text">Play Last Record</string>
+    <string name="sendtextbutton">Save Text</string>
+    <string name="back">BACK</string>
+    <string name="photolabel">Photo :</string>
+    <string name="videolabel">Video :</string>
+    <string name="audiolabel">Audio :</string>
+    <string name="msglabel">Messages:</string>
+    <string name="add_photo">Attach</string>
+    <string name="add_video">Attach</string>
+    <string name="add_msg">Attach</string>
+    <string name="preview_photo">PREVIEW</string>
+    <string name="preview_video">PREVIEW</string>
+    <string name="preview_msg">PREVIEW</string>
+    <string name="show_intro">PREVIEW</string>
+    <string name="select_intro">PREVIEW</string>
+    <string name="picture">PREVIEW</string>
+    <string name="textaftercount"> have been taken</string>
+    <string name="locationlabel">Location : </string>
+    <string name="fetchingstatus">Fetching…</string>
+    <string name="gpsnotavl">GPS Not Enabled</string>
+    <string name="start_new_recording">Start New Recording</string>
+    <string name="new_recording_msg">Enter the name of your new recording</string>
+    <string name="manage_existing_points">Manage Existing Points</string>
+    <string name="exit">Exit</string>
+    <string name="send_data_to_server">Send Data to Server</string>
+    <string name="add_location">Add Current Location</string>
+    <string name="continue_recording">Continue Previous Recording</string>
+    <string name="location_points">Location Points</string>
+    <string name="distance">Distance</string>
+    <string name="speed">Speed</string>
+    <string name="start_continuous">Start Continuous Mode</string>
+    <string name="stop_continuous">Stop Continuous Mode</string>
+    <string name="no_data_to_send">No Recording Data , Available to Send</string>
+    <string name="packaging_data">Packaging Data</string>
+    <string name="connecting_to_server">Connecting To Server</string>
+    <string name="sending_data">Sending data to Server</string>
+    <string name="done">Done</string>
+    <string name="sending_failed_try_again">Sending has Failed. Try Again?</string>
+    <string name="send">SEND</string>
+    <string name="hint_password">password</string>
+	<string name="hint_username">username</string>   
+	<string name="default_password"></string>
+	<string name="default_username">Anonymous</string>
+	<string name="size_alert">You have recoreded a single point. Do you which to stop now (Create a single point entry)?</string>
+ 	<string name="user_notify">Please enter you credentials, else it would be treated as a anonymous entry</string>
+	<string name="error_send"></string>
+	<string name="username_text">Username: </string>
+	<string name="password_text">Password: </string>
+	<string name="send_data_to_sdcard">Pack Data to SD card</string>
+	<string name="preview">Preview</string>
+</resources>

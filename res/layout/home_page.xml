@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/button_continue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="click_recordcontinue"
+        android:text="@string/continue_recording"
+        android:visibility="gone" />
+    
+    <Button
+        android:id="@+id/button_record"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_continue"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:onClick="click_recordnew"
+        android:text="@string/start_new_recording" />
+
+    <Button
+        android:id="@+id/button_manage_points"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_record"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:onClick="click_manage"
+        android:text="@string/manage_existing_points" />
+
+    <Button
+        android:id="@+id/button_send_to_server"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_manage_points"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:onClick="click_send"
+        android:text="@string/send_data_to_server" />
+	
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_send_to_server"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:onClick="click_exit"
+        android:text="@string/exit" />
+
+
+</RelativeLayout>

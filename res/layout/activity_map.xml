@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <org.osmdroid.views.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:id="@+id/mapview" 
+        android:clickable="true"
+        tilesource="CloudMadeStandardTiles"
+        style="1"
+         >
+   </org.osmdroid.views.MapView>
+ 
+    <!--   <TextView
+   tilesource="CloudMadeStandardTiles"
+   
+   
+   
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world"
+        tools:context=".MapActivity" /> -->
+        
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="0px"   
+            >
+
+             <TextView
+                 android:id="@+id/map_lat_id"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="bottom|left"
+                 android:layout_weight="0.1"
+                 android:hint="Latitude"
+                 android:singleLine="true" >
+
+         	</TextView>
+         	
+             <TextView
+         	android:id="@+id/map_long_id"
+         	android:layout_height="wrap_content"
+         	android:layout_width="0dp"
+         	android:layout_weight="0.1"
+         	android:singleLine="true"
+         	android:hint="Longitude">
+         	</TextView>
+             
+           <EditText 
+           android:id="@+id/map_edittext_pin_Title_id" 
+           android:inputType="textMultiLine"
+           android:layout_height="wrap_content"
+           android:layout_width="0dp"
+           android:layout_weight="0.1"
+           android:singleLine="true"
+           android:visibility="gone"
+           android:hint="Title of place" 
+           >
+           </EditText>
+            <EditText 
+           android:id="@+id/map_edittext_pin_desc_id" 
+           android:inputType="textMultiLine"
+           android:layout_height="wrap_content"
+           android:layout_width="0dp"
+           android:layout_weight="0.1"
+           android:singleLine="true"
+           android:visibility="gone"
+           android:hint="Description of place" 
+           >
+           </EditText>
+           <Button
+       		 	android:id="@+id/push_Info_OK_button_id"
+           		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+           		android:text="OK"
+           		android:visibility="gone"
+        	    ></Button>
+        	     <Button
+       		 	android:id="@+id/push_Info_CANCEL_button_id"
+           		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+           		android:text="Cancel"
+           		android:visibility="gone"
+        	    ></Button>
+        </LinearLayout>
+
+</LinearLayout>
