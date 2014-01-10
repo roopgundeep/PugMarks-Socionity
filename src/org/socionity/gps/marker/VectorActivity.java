@@ -72,7 +72,7 @@ public class VectorActivity extends MapActivity {
 	public void loadMap() {
 		mapView.setBuiltInZoomControls(true);
 		mapView.setClickable(true); //Click-able true
-		file_name = "/sdcard/VectorMaps/Belgaum.map"; //fileName of your Map
+		file_name = "/sdcard/VectorMaps/IIIT.map"; //fileName of your Map
 		file = new File(file_name);
 		mapView.setMapFile(file);// set which .map file to include
 		drawable.setAlpha(100);//set opaque value for a draw-able
