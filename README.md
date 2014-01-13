@@ -9,6 +9,8 @@ What you need to get started
 User should have an android phone (version 2.2+ onwards) with the application (.apk file) installed in the device.
 If you are new to Android then visit [Getting started with Android](http://developer.android.com/training/basics/firstapp/index.html) and make your first android app.
 
+Just clone this repository to your local machine and import it as an android project in eclipse. Before launching the app in mobile, add the given .map file in your SD card and change the path to the SD card in file VectorMaps.java.
+
 Offline Maps
 =============
 
